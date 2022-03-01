@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #505050;	
+}
+
+header {
+    background-color: #D3D3D3;
+    padding: 40px;
+}
+
+header h1 {
+    font-family: Smooch sans, san-serif;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    font-family: Smooch sans, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+#user-badge {
+    margin-left: 100px;
+    border: 5px solid rgb(39, 39, 201);
+    padding: 30px;
+    border-radius: 8px;
+    color: rgb(39, 39, 201);
+}
+
+#comp-badge {
+    margin-right: 100px;
+    border: 5px solid rgb(192, 42, 42);
+    padding: 30px;
+    border-radius: 8px;
+    color: rgb(192, 42, 42);
+}
+
+.action-message {
+    text-align: center;
+    font-family: Smooch sans, sans-serif;
+    font-size: 60px;
+    color: white;
+    padding: 30px;
+}
+
+.choices {
+    display: flex;
+    text-align: center;
+}
+
+.choice {
+
+    transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+}
+
+.circle {
+    border-radius: 50%;
+    border: 4px solid white;
+}
